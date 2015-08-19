@@ -38,17 +38,6 @@
 	</div>
 
 
-<script>
-	setTimeout(function(){
-		var bars = document.getElementsByClassName('progress-bar');
-		for (var i = 0; i < bars.length; i++) {
-			console.log("Working on bar: "+i);
-			var percent = bars[i].dataset.percent;
-			var slide = bars[i].children;
-			slide[0].style.width = percent;
-			slide[1].innerHTML = percent;
-		};
-	},0);
-</script>
+<script src="scripts.js"></script>
 </body>
 </html>
